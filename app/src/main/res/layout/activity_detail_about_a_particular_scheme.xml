@@ -26,7 +26,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:text=""/>
+            android:text="The scheme focuses on the poor pregnant woman with special dispensation for states having low institutional delivery rates namely the states of Uttar Pradesh, Uttaranchal, Bihar, Jharkhand, Madhya Pradesh, Chhattisgarh, Assam, Rajasthan, Orissa and Jammu and Kashmir. While these states have been named as Low Performing States (LPS), the remaining states have been named as High performing States
+(HPS).
+"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -40,7 +42,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:text=""
+            android:text="1. All pregnant women delivering in Government health centres like Sub-centre, PHC/CHC/ FRU / general wards of District and state Hospitals or accredited private institutions HPS States.
+
+2. BPL pregnant women, aged 19 years and above.
+
+3.All  SC  and  ST  women delivering  in  a  government  health centre  like  Sub-centre,  PHC/CHC/  FRU  /  general  ward
+of District and state Hospitals or accredited private institutions "
             />
 
         <TextView
@@ -55,7 +62,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:text=""
+            android:text="Mothers in Rural Areas from LPS will be provided a package of Rs.1400 and for HPS it is Rs.700.
+
+In Urban Areas, Mothers from LPS will be provided a package of Rs.1000 and for HPS it is Rs.600."
             />
 
         <TextView
@@ -70,12 +79,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:text="" />
+            android:text="Mother who fullfill above criteria can contact with their local ASHA.
+
+The Yojana has identified ASHA, the accredited social health activist as an effective link between the Government and the poor pregnant women in l0 low performing states, namely the 8 EAG states and Assam and J/K and the remaining NE States. In ot
+her eligible states and UTs, wherever,AWW and TBAs or ASHA like activist has been engaged in this purpose, she can be associated with this Yojana for providing the services.  " />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Websites"
+            android:text="Official Websites"
             android:textSize="24dp"
             style="@style/Base.TextAppearance.AppCompat.Display1"/>
 
@@ -85,12 +97,12 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:textColor="@color/link"
-            android:text=""/>
+            android:text="null"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Additional Resouces"
+            android:text="Read More"
             android:textSize="24dp"
             style="@style/Base.TextAppearance.AppCompat.Display1"/>
 
@@ -99,7 +111,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
-            android:text="" />
+            android:textColor="@color/link"
+            android:text="http://finfyi.com/janani-suraksha-yojana-jsy/" />
 
 
     </LinearLayout>

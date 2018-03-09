@@ -29,16 +29,15 @@ public class DetailAboutAParticularScheme extends AppCompatActivity {
         textViewdAddi.setText(getIntent().getStringExtra("additionalResources"));
 
 
-
-
-
-
         // Setting webpage
-        TextView textViewLink = findViewById(R.id.textview_website);
-        final String Url = textViewLink.getText().toString();
+        TextView textviewOfficialSiteLink = findViewById(R.id.textview_website);
+        TextView textViewAdditionResoursesLink = findViewById(R.id.textview_additional_resources);
+
+
+        final String Url = textviewOfficialSiteLink.getText().toString();
         if(!Url.equals("null"))
         {
-            textViewLink.setOnClickListener(new View.OnClickListener() {
+            textviewOfficialSiteLink.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 
@@ -48,6 +47,21 @@ public class DetailAboutAParticularScheme extends AppCompatActivity {
                 }
             });
 
+        }
+
+        final String Url2 = textViewAdditionResoursesLink.getText().toString();
+        if(!Url2.equals("null"))
+        {
+            textViewAdditionResoursesLink.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    Intent i = new Intent(DetailAboutAParticularScheme.this,LinkWebView.class);
+                    i.putExtra("URL",Url2);
+                    startActivity(i);
+
+                }
+            });
         }
 
 
