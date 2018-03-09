@@ -21,13 +21,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,AllSchems.class));
             }
         });
-        final TextView temp = findViewById(R.id.textview_temp);
-        temp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,FullInfoAboutTheScheme.class));
-            }
-        });
+
+
 
     }
 }

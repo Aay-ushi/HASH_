@@ -17,14 +17,7 @@
         android:textSize="24dp"
         android:textStyle="bold"
         android:gravity="center"/>
-    <TextView
-        android:id="@+id/textview_temp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="temp"
-        android:textSize="24dp"
-        android:textStyle="bold"
-        android:gravity="center"/>
+
 
 
 
