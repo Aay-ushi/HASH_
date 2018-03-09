@@ -8,14 +8,14 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AllSchems extends AppCompatActivity {
+public class AllSchemes extends AppCompatActivity {
 
     RecyclerView recyclerView;
-    List<Sehmes> sehmesList;
+    List<Schemes> sehmesList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_all_schems);
+        setContentView(R.layout.activity_all_schemes);
 
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
@@ -23,7 +23,7 @@ public class AllSchems extends AppCompatActivity {
 
         sehmesList = new ArrayList<>();
 
-        sehmesList.add(new Sehmes("JANANI SURAKSHA YOJANA (JSY)","The scheme focuses on the poor pregnant woman with special dispensation for states having low institutional delivery rates namely the states of Uttar Pradesh, Uttaranchal, Bihar, Jharkhand, Madhya Pradesh, Chhattisgarh, Assam, Rajasthan, Orissa and Jammu and Kashmir.\n" +
+        sehmesList.add(new Schemes("JANANI SURAKSHA YOJANA (JSY)","The scheme focuses on the poor pregnant woman with special dispensation for states having low institutional delivery rates namely the states of Uttar Pradesh, Uttaranchal, Bihar, Jharkhand, Madhya Pradesh, Chhattisgarh, Assam, Rajasthan, Orissa and Jammu and Kashmir.\n" +
                 "\n" + "While these states have been named as Low Performing States (LPS), the remaining states have been named as High performing States \n" +
                 "(HPS).\n","1. All pregnant women delivering in Government health centres like Sub-centre, PHC/CHC/ FRU / general wards of District and state Hospitals or accredited private institutions HPS States.\n" +
                 "\n" + "2. BPL pregnant women, aged 19 years and above.\n" +
@@ -38,59 +38,59 @@ public class AllSchems extends AppCompatActivity {
                 "null","http://ayushmanbharat.net/wp-content/uploads/2018/02/JSR.pdf"));
 
 
-        sehmesList.add(new Sehmes("Congress Safai Yojna","A","d",
+        sehmesList.add(new Schemes("Congress Safai Yojna","A","d",
                 "w","w","d","d"));
-        sehmesList.add(new Sehmes("Jai Hind","A","d",
+        sehmesList.add(new Schemes("Jai Hind","A","d",
                 "w","w","d","d"));
-        sehmesList.add(new Sehmes("Engineering","A","d",
-                "w","w","d","d"));
-
-        sehmesList.add(new Sehmes("All India Berojgar Yojna","A","d",
-                "w","w","d","d"));
-        sehmesList.add(new Sehmes("Congress Safai Yojna","A","d",
-                "w","w","d","d"));
-        sehmesList.add(new Sehmes("Jai Hind","A","d",
-                "w","w","d","d"));
-        sehmesList.add(new Sehmes("Engineering","A","d",
+        sehmesList.add(new Schemes("Engineering","A","d",
                 "w","w","d","d"));
 
-        sehmesList.add(new Sehmes("All India Berojgar Yojna","A","d",
+        sehmesList.add(new Schemes("All India Berojgar Yojna","A","d",
                 "w","w","d","d"));
-        sehmesList.add(new Sehmes("Congress Safai Yojna","A","d",
+        sehmesList.add(new Schemes("Congress Safai Yojna","A","d",
                 "w","w","d","d"));
-        sehmesList.add(new Sehmes("Jai Hind","A","d",
+        sehmesList.add(new Schemes("Jai Hind","A","d",
                 "w","w","d","d"));
-        sehmesList.add(new Sehmes("Engineering","A","d",
-                "w","w","d","d"));
-
-        sehmesList.add(new Sehmes("All India Berojgar Yojna","A","d",
-                "w","w","d","d"));
-        sehmesList.add(new Sehmes("Congress Safai Yojna","A","d",
-                "w","w","d","d"));
-        sehmesList.add(new Sehmes("Jai Hind","A","d",
-                "w","w","d","d"));
-        sehmesList.add(new Sehmes("Engineering","A","d",
+        sehmesList.add(new Schemes("Engineering","A","d",
                 "w","w","d","d"));
 
-        sehmesList.add(new Sehmes("All India Berojgar Yojna","A","d",
+        sehmesList.add(new Schemes("All India Berojgar Yojna","A","d",
                 "w","w","d","d"));
-        sehmesList.add(new Sehmes("Congress Safai Yojna","A","d",
+        sehmesList.add(new Schemes("Congress Safai Yojna","A","d",
                 "w","w","d","d"));
-        sehmesList.add(new Sehmes("Jai Hind","A","d",
+        sehmesList.add(new Schemes("Jai Hind","A","d",
                 "w","w","d","d"));
-        sehmesList.add(new Sehmes("Engineering","A","d",
-                "w","w","d","d"));
-
-        sehmesList.add(new Sehmes("All India Berojgar Yojna","A","d",
-                "w","w","d","d"));
-        sehmesList.add(new Sehmes("Congress Safai Yojna","A","d",
-                "w","w","d","d"));
-        sehmesList.add(new Sehmes("Jai Hind","A","d",
-                "w","w","d","d"));
-        sehmesList.add(new Sehmes("Engineering","A","d",
+        sehmesList.add(new Schemes("Engineering","A","d",
                 "w","w","d","d"));
 
-        SchmesAdapter adapter = new SchmesAdapter(AllSchems.this,sehmesList);
+        sehmesList.add(new Schemes("All India Berojgar Yojna","A","d",
+                "w","w","d","d"));
+        sehmesList.add(new Schemes("Congress Safai Yojna","A","d",
+                "w","w","d","d"));
+        sehmesList.add(new Schemes("Jai Hind","A","d",
+                "w","w","d","d"));
+        sehmesList.add(new Schemes("Engineering","A","d",
+                "w","w","d","d"));
+
+        sehmesList.add(new Schemes("All India Berojgar Yojna","A","d",
+                "w","w","d","d"));
+        sehmesList.add(new Schemes("Congress Safai Yojna","A","d",
+                "w","w","d","d"));
+        sehmesList.add(new Schemes("Jai Hind","A","d",
+                "w","w","d","d"));
+        sehmesList.add(new Schemes("Engineering","A","d",
+                "w","w","d","d"));
+
+        sehmesList.add(new Schemes("All India Berojgar Yojna","A","d",
+                "w","w","d","d"));
+        sehmesList.add(new Schemes("Congress Safai Yojna","A","d",
+                "w","w","d","d"));
+        sehmesList.add(new Schemes("Jai Hind","A","d",
+                "w","w","d","d"));
+        sehmesList.add(new Schemes("Engineering","A","d",
+                "w","w","d","d"));
+
+        SchemesAdapter adapter = new SchemesAdapter(AllSchemes.this,sehmesList);
         recyclerView.setAdapter(adapter);
     }
 }

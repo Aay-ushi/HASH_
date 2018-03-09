@@ -4,12 +4,12 @@ package com.example.mani.hash;
  * Created by mani on 3/9/18.
  */
 
-public class Sehmes {
+public class Schemes {
     String name,description,eligiblity,benefits;
     String how_to_apply,websites,additional_information;
 
-    public Sehmes(String name, String description, String eligiblity, String benefits,
-                  String how_to_apply, String websites, String additional_information) {
+    public Schemes(String name, String description, String eligiblity, String benefits,
+                   String how_to_apply, String websites, String additional_information) {
 
         this.name = name;
         this.description = description;

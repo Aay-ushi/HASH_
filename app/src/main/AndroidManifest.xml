@@ -19,9 +19,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AllSchems"
+            android:name=".AllSchemes"
             android:label="All Schemes" />
-        <activity android:name=".FullInfoAboutTheScheme" />
+        <activity android:name=".DetailAboutAParticularScheme" />
         <activity
             android:name=".LinkWebView"
             android:label="WebView"

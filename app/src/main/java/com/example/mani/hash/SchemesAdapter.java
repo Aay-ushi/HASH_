@@ -15,13 +15,13 @@ import java.util.List;
  * Created by mani on 3/9/18.
  */
 
-public class SchmesAdapter  extends RecyclerView.Adapter<SchmesAdapter.SchmesViewHolder> {
+public class SchemesAdapter extends RecyclerView.Adapter<SchemesAdapter.SchmesViewHolder> {
 
     private Context mCtx;
-    private List<Sehmes> schmestList;
+    private List<Schemes> schmestList;
 
 
-    public SchmesAdapter (Context mCtx, List<Sehmes> schmesList) {
+    public SchemesAdapter(Context mCtx, List<Schemes> schmesList) {
         this.mCtx = mCtx;
         this.schmestList = schmesList;
     }
@@ -37,7 +37,7 @@ public class SchmesAdapter  extends RecyclerView.Adapter<SchmesAdapter.SchmesVie
     @Override
     public void onBindViewHolder(SchmesViewHolder holder, int position) {
 
-        Sehmes sehmes = schmestList.get(position);
+        Schemes sehmes = schmestList.get(position);
 
         holder.textViewName.setText(sehmes.getName());
     }
@@ -52,10 +52,10 @@ public class SchmesAdapter  extends RecyclerView.Adapter<SchmesAdapter.SchmesVie
     class SchmesViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView textViewName;
-        List<Sehmes> schmesList = new ArrayList<>();
+        List<Schemes> schmesList = new ArrayList<>();
         Context ctx;
 
-        public SchmesViewHolder(View itemView, Context ctx, List<Sehmes> schmesList) {
+        public SchmesViewHolder(View itemView, Context ctx, List<Schemes> schmesList) {
             super(itemView);
             this.schmesList = schmesList;
             this.ctx = ctx;
@@ -69,9 +69,9 @@ public class SchmesAdapter  extends RecyclerView.Adapter<SchmesAdapter.SchmesVie
         @Override
         public void onClick(View v) {
             int position = getAdapterPosition();
-            Sehmes aSchme = this.schmesList.get(position);
+            Schemes aSchme = this.schmesList.get(position);
 
-            Intent i = new Intent(this.ctx,FullInfoAboutTheScheme.class);
+            Intent i = new Intent(this.ctx,DetailAboutAParticularScheme.class);
 
             i.putExtra("name",aSchme.getName());
 

@@ -6,12 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-public class FullInfoAboutTheScheme extends AppCompatActivity {
+public class DetailAboutAParticularScheme extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_full_info_about_the_scheme);
+        setContentView(R.layout.activity_detail_about_a_particular_scheme);
 
         TextView textViewdDis = findViewById(R.id.textView_description);
         TextView textViewdEli = findViewById(R.id.textview_eligiblity);
@@ -42,7 +42,7 @@ public class FullInfoAboutTheScheme extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
 
-                    Intent i = new Intent(FullInfoAboutTheScheme.this,LinkWebView.class);
+                    Intent i = new Intent(DetailAboutAParticularScheme.this,LinkWebView.class);
                     i.putExtra("URL",Url);
                     startActivity(i);
                 }
