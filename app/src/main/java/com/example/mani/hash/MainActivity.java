@@ -14,15 +14,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView login = findViewById(R.id.textview_login);
-        login.setOnClickListener(new View.OnClickListener() {
+       TextView allSchemes = findViewById(R.id.textview_all_schmes);
+
+        allSchemes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,AllSchemes.class));
             }
         });
 
+       TextView signUp = findViewById(R.id.textview_sign_up);
+       signUp.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               startActivity(new Intent(MainActivity.this,SignUp.class));
+           }
+       });
 
+    }
 
+    @Override
+    public void onBackPressed() {
+
+        finish();
     }
 }

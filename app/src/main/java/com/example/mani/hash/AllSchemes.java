@@ -23,7 +23,7 @@ public class AllSchemes extends AppCompatActivity {
 
     RecyclerView mRecyclerView;
     List<Schemes> mSehemesList;
-    String FETCHING_URL = "http://192.168.0.106/HealthCare/fetch_from_database.php";
+    String FETCHING_URL = "http://192.168.43.153/HealthCare/fetch_from_database.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,10 +36,6 @@ public class AllSchemes extends AppCompatActivity {
 
         mSehemesList = new ArrayList<>();
         loadSchemesFromDatabase();
-
-
-
-
     }
 
     private void loadSchemesFromDatabase()
