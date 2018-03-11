@@ -9,11 +9,11 @@
     android:background="@color/colorPrimary"
     tools:context="com.example.mani.hash.SignUp">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_weight="1"
-        android:src="@drawable/logo"
+        android:src="@drawable/newlogo"
         android:layout_marginTop="24dp"
 
         android:layout_gravity="center"/>
