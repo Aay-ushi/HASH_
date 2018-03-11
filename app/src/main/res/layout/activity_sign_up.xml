@@ -33,6 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="name"
+            android:inputType="text"
             android:background="@drawable/sign_up_outline"
             android:padding="12dp"/>
 
@@ -42,6 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="email"
+            android:inputType="text"
             android:background="@drawable/sign_up_outline"
             android:padding="12dp"/>
 
@@ -51,6 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="password"
+            android:inputType="textPassword"
             android:background="@drawable/sign_up_outline"
             android:padding="12dp"/>
 
@@ -60,6 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="confirm password"
+            android:inputType="textPassword"
             android:background="@drawable/sign_up_outline"
             android:padding="12dp"/>
     </LinearLayout>
@@ -74,6 +78,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/sign_up_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"

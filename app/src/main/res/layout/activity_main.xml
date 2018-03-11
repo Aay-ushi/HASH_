@@ -80,12 +80,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Userid"
+                    android:inputType="text"
                     android:textAllCaps="true"
                     android:textSize="12dp" />
 
                 <EditText
+                    android:id="@+id/login_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:inputType="text"
                     android:layout_marginBottom="16dp"
                     android:layout_marginTop="4dp" />
 
@@ -97,6 +100,7 @@
                     android:textSize="12dp" />
 
                 <EditText
+                    android:id="@+id/login_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="48dp"
@@ -107,6 +111,7 @@
 
 
         <android.support.v7.widget.CardView
+
             android:id="@+id/cardView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -123,7 +128,7 @@
             app:layout_constraintVertical_bias="0.84000003">
 
             <TextView
-                android:id="@+id/login_button"
+                android:id="@+id/faltu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/login_outline"
